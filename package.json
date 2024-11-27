@@ -34,10 +34,9 @@
 	"scripts": {
 		"test": "node dist/Test.js"
 	},
-	"dependencies": {
-		"@echogarden/audio-io": "^0.2.3"
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"@types/node": "^22.8.6"
+		"@types/node": "^22.8.6",
+		"@echogarden/audio-io": "^0.2.3"
 	}
 }
