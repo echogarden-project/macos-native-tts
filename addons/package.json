@@ -1,7 +1,9 @@
 {
 	"name": "macos-native-tts-addon",
-	"description": "N-API addon for the macOS native speech synthesizer",
 	"version": "0.1.0",
+	"description": "N-API addon for the macOS native speech synthesizer",
+	"author": "Rotem Dan",
+	"license": "MIT",
 	"main": "",
 	"private": true,
 	"scripts": {
@@ -12,7 +14,5 @@
 	"devDependencies": {
 		"node-gyp": "^10.2.0",
 		"node-addon-api": "^8.2.2"
-	},
-	"author": "Rotem Dan",
-	"license": "MIT"
+	}
 }
