@@ -1,0 +1,43 @@
+{
+	"name": "@echogarden/macos-native-tts",
+	"version": "0.1.0",
+	"description": "Node.js binding to the macOS native text-to-speech API (AVSpeechSynthesizer).",
+	"author": "Rotem Dan",
+	"license": "MIT",
+	"keywords": [
+		"speech synthesis",
+		"text-to-speech",
+		"TTS",
+		"macOS",
+		"AVFoundation"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/macos-native-tts"
+	},
+	"bugs": {
+		"url": "https://github.com/echogarden-project/macos-native-tts/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"main": "./dist/Exports.js",
+	"type": "module",
+	"files": [
+		"src",
+		"dist",
+		"addons/bin",
+		"tsconfig.json",
+		"README.md",
+		"LICENSE.md"
+	],
+	"scripts": {
+		"test": "node dist/Test.js"
+	},
+	"dependencies": {
+		"@echogarden/audio-io": "^0.2.3"
+	},
+	"devDependencies": {
+		"@types/node": "^22.8.6"
+	}
+}
