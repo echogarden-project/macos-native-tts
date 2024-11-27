@@ -1,5 +1,5 @@
 {
-	"name": "macos-native-tts-addon",
+	"name": "@echogarden/macos-native-tts-addon",
 	"version": "0.1.0",
 	"description": "N-API addon for the macOS native speech synthesizer",
 	"author": "Rotem Dan",
